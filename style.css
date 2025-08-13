@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #6a11cb;
+    background: -webkit-linear-gradient(to right, #2575fc, #6a11cb);
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+    background-attachment: fixed;
+}
+
+.main-navbar {
+    background-color: #000000;
+    padding: 10px 30px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+.navbar-brand-text {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: 15px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.main-navbar .navbar-brand img {
+    height: 40px;
+}
+
+.main-navbar .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.main-navbar .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bday-card {
+    background-color: rgba(255, 255, 255, 0.98);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    padding: 1.5rem;
+    backdrop-filter: blur(10px);
+}
+
+.bday-card:hover {
+    transform: translateY(-8px) scale(1.04);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.bday-card .card-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #212529;
+}
+
+.bday-card .card-text {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+
+.bday-card h4 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 0;
+}
+
+.bday-card .small {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+.badge-today {
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.75rem 1rem !important;
+}
+
+.page-header h2 {
+    font-family:cursive;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: 0.5rem;
+    margin-top: 50px;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.85);
+    letter-spacing: 0.5px;
+}
+
+.today-notification-card {
+    background: yellow;
+    color: black;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(40, 167, 69, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 3rem;
+}
+
+.today-notification-card .card-title {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.today-notification-card .card-text {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.upcoming-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.98);
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.upcoming-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    border-color: rgba(0, 123, 255, 0.5);
+}
+
+.upcoming-card .person-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #343a40;
+}
+
+.upcoming-card .person-date {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.upcoming-card .days-left-count {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #007bff;
+    text-align: right;
+}
+
+.upcoming-card .days-left-label {
+    font-size: 0.8rem;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.badge{
+    background-color: red ;
+    height: 40px;
+    font-size:x-large;
+    font-weight: 600;
+}
+
+.content-card {
+    background-color: rgba(255, 255, 255, 0.98);
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+}
+
+.content-card .form-control {
+    border-radius: 0.75rem;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease;
+    background-color: #f8f9fa;
+}
+
+.content-card .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    background-color: #ffffff;
+}
+
+.content-card .btn-primary {
+    border-radius: 0.75rem;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.content-card .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
+}
+
+.reminder-table {
+    background-color: transparent;
+}
+
+.reminder-table thead th {
+    border: none;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    color: #495057;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.reminder-table tbody tr {
+    transition: background-color 0.2s ease;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.reminder-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.reminder-table tbody tr:hover {
+    background-color: rgba(241, 243, 245, 0.7);
+}
+
+.reminder-table tbody td {
+    padding: 1rem 1.5rem;
+    vertical-align: middle;
+    border-top: none;
+    font-weight: 500;
+}
+
+.reminder-table .btn-danger {
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(220, 53, 69, 0.3);
+}
+
+.ui-datepicker {
+    border-radius: 1rem !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
+    border: none !important;
+    padding: 0.5rem !important;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    background: #007bff !important;
+    color: #ffffff !important;
+    border-radius: 0.75rem 0.75rem 0 0 !important;
+    border: none !important;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    font-weight: 700 !important;
+}
+
+.ui-datepicker .ui-state-default {
+    border-radius: 0.5rem !important;
+    border: none !important;
+    text-align: center !important;
+    background: #f8f9fa !important;
+}
+
+.ui-datepicker .ui-state-highlight,
+.ui-datepicker .ui-state-active {
+    background: #007bff !important;
+    color: #ffffff !important;
+}
