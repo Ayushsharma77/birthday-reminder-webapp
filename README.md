@@ -2,7 +2,7 @@
 
 Birthday Buddy is a secure, multi-user web application built with PHP and MySQL. It provides a simple and elegant interface for users to manage a personal list of birthdays and receive timely notifications so they never miss an important day.
 
-* **Live Demo:** http://birthday-buddy.free.nf
+* **Live Demo:** http://birthday-buddy.great-site.net
 * **Created by:** Ayush Sharma
 
 ![image](birthday-cake.png)
